@@ -84,4 +84,4 @@ Copyright (c) 2025 Brennan
 
 ## Links
 
-- [GitHub Repository](https://github.com/yourusername/obsidian-spacemouse-pan)
+- [GitHub Repository](https://github.com/bcmohr/obsidian-spacemouse-pan)
