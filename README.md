@@ -39,7 +39,7 @@ This approach maintains Obsidian's security model while enabling SpaceMouse func
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2025 [Your Name]
+Copyright (c) 2025 Brennan
 
 ## Links
 
