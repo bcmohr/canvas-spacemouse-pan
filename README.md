@@ -27,13 +27,52 @@ Obsidian is a sandboxed Electron application that cannot directly access HID (Hu
 
 This approach maintains Obsidian's security model while enabling SpaceMouse functionality.
 
-## Setup
+## Installation
 
-1. Install the plugin in Obsidian
-2. Navigate to the NODE_SERVER directory
-3. Run npm install to install dependencies
-4. Start the server with node server.js
-5. Start using your SpaceMouse with Obsidian Canvas
+### Plugin Installation
+1. Navigate to your Obsidian vault plugins directory:
+   ```
+   cd YOURVAULT/.obsidian/plugins
+   ```
+2. Clone the repository:
+   ```
+   git clone https://github.com/bcmohr/canvas-spacemouse-pan
+   ```
+3. Navigate to the plugin directory:
+   ```
+   cd canvas-spacemouse-pan
+   ```
+4. Install dependencies and build the plugin:
+   ```
+   npm install
+   npm install spacemouse-node
+   npm run build
+   ```
+5. Enable the plugin in Obsidian's settings under "Community Plugins"
+
+At this point, the plugin is installed and ready in Obsidian, but it won't receive any input from your SpaceMouse until the server is running.
+
+### Server Setup
+
+6. Navigate to the server directory:
+   ```
+   cd NODE_SERVER
+   ```
+7. Install dependencies:
+   ```
+   npm install
+   ```
+8. Start the server:
+   ```
+   node server.js
+   ```
+9. You should see a message confirming the server is running on ws://localhost:3030
+
+Once both the plugin is enabled in Obsidian and the server is running, your SpaceMouse will control Canvas views!
+
+## Disclaimer
+
+This is a barely-functioning hacked-together project for just panning around a canvas. The zoom functionality was added on later and is not well-developed. You'll notice that zooming in/out overrides any panning currently taking place. My goal was to get a minimum viable product out of this, not polish every quirk. I don't plan on figuring out how to add smooth panning AND zooming at the same time.
 
 ## License
 
