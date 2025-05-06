@@ -30,8 +30,10 @@ This approach maintains Obsidian's security model while enabling SpaceMouse func
 ## Setup
 
 1. Install the plugin in Obsidian
-2. Run the Node.js server: `node server.js`
-3. Start using your SpaceMouse with Obsidian Canvas
+2. Navigate to the NODE_SERVER directory
+3. Run npm install to install dependencies
+4. Start the server with node server.js
+5. Start using your SpaceMouse with Obsidian Canvas
 
 ## License
 

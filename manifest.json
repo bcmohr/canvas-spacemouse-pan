@@ -1,0 +1,10 @@
+{
+	"id": "canvas-spacemouse-pan",
+	"name": "Canvas SpaceMouse Pan",
+	"version": "1.0.0",
+	"minAppVersion": "1.1.0",
+	"description": "Pan/zoom in an Obsidian Canvas with a 3Dconnexion SpaceMouse and a small Node server.",
+	"author": "bcmohr",
+	"authorUrl": "https://github.com/bcmohr",
+	"main": "main.js"
+}
